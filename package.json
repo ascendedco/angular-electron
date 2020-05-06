@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "9.1.0",
+    "@angular-devkit/architect": "~0.900",
     "@angular-devkit/build-angular": "0.901.4",
     "@angular-eslint/builder": "0.0.1-alpha.18",
     "@angular/cli": "9.1.4",
@@ -53,6 +54,8 @@
     "@angular/platform-browser": "9.1.4",
     "@angular/platform-browser-dynamic": "9.1.4",
     "@angular/router": "9.1.4",
+    "@ngrx/schematics": "9.1.1",
+    "@ngrx/store-devtools": "9.1.1",
     "@ngx-translate/core": "12.1.2",
     "@ngx-translate/http-loader": "4.0.0",
     "@types/jasmine": "3.5.10",
@@ -72,6 +75,10 @@
     "electron-reload": "1.5.0",
     "eslint": "6.8.0",
     "eslint-plugin-import": "2.20.2",
+    "firebase-tools": "^8.0.0",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1",
     "jasmine-core": "3.5.0",
     "jasmine-spec-reporter": "5.0.2",
     "karma": "5.0.4",
@@ -92,5 +99,18 @@
   },
   "engines": {
     "node": ">=10.13.0"
+  },
+  "dependencies": {
+    "@angular/animations": "^9.0.0 || ^10.0.0-0",
+    "@angular/cdk": "9.2.2",
+    "@angular/fire": "6.0.0",
+    "@angular/forms": "^9.0.0 || ^10.0.0-0",
+    "@angular/material": "9.2.2",
+    "@ascendedco/architecture": "1.1.1",
+    "@ngrx/effects": "9.1.1",
+    "@ngrx/entity": "9.1.1",
+    "@ngrx/router-store": "9.1.1",
+    "@ngrx/store": "9.1.1",
+    "firebase": "7.14.2"
   }
 }

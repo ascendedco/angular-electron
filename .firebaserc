@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "architecture-cc819": {
+      "hosting": {
+        "angular-electron": [
+          "architecture-cc819"
+        ]
+      }
+    }
+  }
+}
