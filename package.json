@@ -99,6 +99,10 @@
     "node": ">=10.13.0"
   },
   "dependencies": {
-    "@angular/fire": "6.0.0"
+    "@angular/animations": "^9.0.0 || ^10.0.0-0",
+    "@angular/cdk": "9.2.2",
+    "@angular/fire": "6.0.0",
+    "@angular/forms": "^9.0.0 || ^10.0.0-0",
+    "@angular/material": "9.2.2"
   }
 }
